@@ -914,47 +914,47 @@ Wire Wire Line
 Wire Wire Line
 	10450 2550 10600 2550
 $Sheet
-S 5850 4800 650  300 
+S 5900 5300 650  300 
 U 5F5E3585
 F0 "buck" 50
 F1 "buck.sch" 50
-F2 "5V" I R 6500 4950 50 
-F3 "VIN" I L 5850 4950 50 
+F2 "5V" I R 6550 5450 50 
+F3 "VIN" I L 5900 5450 50 
 $EndSheet
 $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 5F602226
-P 5500 5250
-F 0 "J1" H 5400 5150 50  0000 C CNN
-F 1 "Jumper" H 5300 5250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5500 5250 50  0001 C CNN
-F 3 "~" H 5500 5250 50  0001 C CNN
-	1    5500 5250
+P 5550 5750
+F 0 "J1" H 5450 5650 50  0000 C CNN
+F 1 "Jumper" H 5350 5750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5550 5750 50  0001 C CNN
+F 3 "~" H 5550 5750 50  0001 C CNN
+	1    5550 5750
 	0    -1   -1   0   
 $EndComp
-Text Label 4650 4950 2    50   ~ 0
+Text Label 4700 5450 2    50   ~ 0
 CH1_OUT
 $Comp
 L power:+5V #PWR0105
 U 1 1 5F623654
-P 6650 4950
-F 0 "#PWR0105" H 6650 4800 50  0001 C CNN
-F 1 "+5V" H 6665 5123 50  0000 C CNN
-F 2 "" H 6650 4950 50  0001 C CNN
-F 3 "" H 6650 4950 50  0001 C CNN
-	1    6650 4950
+P 6700 5450
+F 0 "#PWR0105" H 6700 5300 50  0001 C CNN
+F 1 "+5V" H 6715 5623 50  0000 C CNN
+F 2 "" H 6700 5450 50  0001 C CNN
+F 3 "" H 6700 5450 50  0001 C CNN
+	1    6700 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 4950 6650 4950
+	6550 5450 6700 5450
 Wire Wire Line
-	4650 4950 4850 4950
+	4700 5450 4900 5450
 Wire Wire Line
-	5500 4950 5500 5050
+	5550 5450 5550 5550
 Wire Wire Line
-	5600 5050 5600 4950
+	5650 5550 5650 5450
 Wire Wire Line
-	5600 4950 5850 4950
+	5650 5450 5900 5450
 $Sheet
 S 3900 3050 850  900 
 U 5F64E916
@@ -1020,42 +1020,42 @@ CH3_LATCH
 Text Label 3900 3350 2    50   ~ 0
 CH3_DIA_EN
 Wire Wire Line
-	4850 4950 4850 5050
+	4900 5450 4900 5550
 $Comp
 L Diodes:SMBJxxxD D?
 U 1 1 5F6B0AA1
-P 4850 5200
+P 4900 5700
 AR Path="/5F41030B/5F6B0AA1" Ref="D?"  Part="1" 
 AR Path="/5F4101BA/5F6B0AA1" Ref="D?"  Part="1" 
 AR Path="/5F404FBF/5F6B0AA1" Ref="D?"  Part="1" 
 AR Path="/5F6B0AA1" Ref="D1"  Part="1" 
 AR Path="/5F5E3585/5F6B0AA1" Ref="D?"  Part="1" 
-F 0 "D1" V 4804 5280 50  0000 L CNN
-F 1 "SMBJ16D" V 4895 5280 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 4850 5000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf" H 4800 5200 50  0001 C CNN
-	1    4850 5200
+F 0 "D1" V 4854 5780 50  0000 L CNN
+F 1 "SMBJ16D" V 4945 5780 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 4900 5500 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf" H 4850 5700 50  0001 C CNN
+	1    4900 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F6B0AA7
-P 4850 5350
+P 4900 5850
 AR Path="/5F404FBF/5F6B0AA7" Ref="#PWR?"  Part="1" 
 AR Path="/5F41030B/5F6B0AA7" Ref="#PWR?"  Part="1" 
 AR Path="/5F4101BA/5F6B0AA7" Ref="#PWR?"  Part="1" 
 AR Path="/5F6B0AA7" Ref="#PWR0112"  Part="1" 
 AR Path="/5F5E3585/5F6B0AA7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0112" H 4850 5100 50  0001 C CNN
-F 1 "GND" H 4855 5177 50  0000 C CNN
-F 2 "" H 4850 5350 50  0001 C CNN
-F 3 "" H 4850 5350 50  0001 C CNN
-	1    4850 5350
+F 0 "#PWR0112" H 4900 5600 50  0001 C CNN
+F 1 "GND" H 4905 5677 50  0000 C CNN
+F 2 "" H 4900 5850 50  0001 C CNN
+F 3 "" H 4900 5850 50  0001 C CNN
+	1    4900 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 4950 5500 4950
-Connection ~ 4850 4950
+	4900 5450 5550 5450
+Connection ~ 4900 5450
 $Comp
 L Device:C_Small C1
 U 1 1 5F69BC22
@@ -1138,4 +1138,8 @@ F 3 "~" H 4800 7550 50  0001 C CNN
 $EndComp
 Text Notes 4050 1300 0    59   ~ 0
 CH1_IN, CH1_OUT\nCH2_IN, CH2_OUT\nCH3_IN, CH3_OUT\nare rated 0-24V 10A,\nabsolute maximum 26V
+Text Notes 4400 5050 0    59   ~ 0
+CH1 can be used to power Arduino or Feather via \na buck converter. Disconnect jumper J1 if Arduino \nor Feather have their own separate power.
+Text Notes 6600 5650 0    50   ~ 0
+500mA \ncontinuous max
 $EndSCHEMATC
