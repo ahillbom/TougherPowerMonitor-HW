@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title ""
+Title "Tougher INA3221 Power Meter"
 Date ""
 Rev ""
-Comp ""
+Comp "Beast Devices"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -167,13 +167,9 @@ Text Notes 7450 3350 0    50   ~ 0
 500mA \ncontinuous max
 Wire Wire Line
 	4750 3550 4750 3650
-Text Notes 6800 1800 0    50   ~ 0
-Disconnect the jumper\nif Feather is powered from USB,\nto prevent back-powering.
 Connection ~ 7600 3400
 Wire Wire Line
 	7600 3400 7950 3400
-Text Notes 4150 2000 0    50   ~ 0
-Channel 1 is connected to a buck converter \nto provide 5V for the Feather.\nDisconnect J1 jumper if Feather has external power.
 $Comp
 L Device:C_Small C2
 U 1 1 5F5FC922
@@ -207,10 +203,12 @@ U 1 1 5F5FC933
 P 3100 3250
 AR Path="/5F5FC933" Ref="D?"  Part="1" 
 AR Path="/5F5E3585/5F5FC933" Ref="D8"  Part="1" 
-F 0 "D8" H 3100 3033 50  0000 C CNN
-F 1 "D_Schottky" H 3100 3124 50  0000 C CNN
+F 0 "D8" H 3100 3150 50  0000 C CNN
+F 1 "D_Schottky" H 3100 3124 50  0001 C CNN
 F 2 "Diode_SMD:D_SMB" H 3100 3250 50  0001 C CNN
 F 3 "~" H 3100 3250 50  0001 C CNN
+F 4 "MBRS260T3G" H 3100 3350 50  0000 C CNN "Part Number"
+F 5 "ON Semiconductor" H 3100 3250 50  0001 C CNN "Manufacturer"
 	1    3100 3250
 	-1   0    0    1   
 $EndComp
@@ -226,10 +224,12 @@ $Comp
 L Device:Polyfuse F1
 U 1 1 5F629EE9
 P 9000 3400
-F 0 "F1" V 8775 3400 50  0000 C CNN
-F 1 "0ZCG0075BF2B" V 8866 3400 50  0000 C CNN
+F 0 "F1" V 8900 3400 50  0000 C CNN
+F 1 "0ZCG0075BF2B" V 9150 3400 50  0000 C CNN
 F 2 "Fuse:Fuse_1812_4532Metric" H 9050 3200 50  0001 L CNN
 F 3 "https://www.mouser.se/datasheet/2/643/0ZCG_Nov2016-1132141.pdf" H 9000 3400 50  0001 C CNN
+F 4 "0ZCG0075BF2B" V 9000 3400 50  0001 C CNN "Part Number"
+F 5 "Bel Fuse" V 9000 3400 50  0001 C CNN "Manufacturer"
 	1    9000 3400
 	0    1    1    0   
 $EndComp
@@ -333,4 +333,6 @@ Wire Wire Line
 Connection ~ 8300 3400
 Wire Wire Line
 	8300 3400 8850 3400
+Text Notes 8700 3200 0    50   ~ 0
+Ihold = 750mA\nItrip = 1500mA
 $EndSCHEMATC

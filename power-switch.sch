@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
-Title ""
+Title "Tougher INA3221 Power Meter"
 Date ""
 Rev ""
-Comp ""
+Comp "Beast Devices"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -310,9 +310,9 @@ Wire Wire Line
 	3900 4800 3900 4850
 Connection ~ 7400 3050
 Text Notes 3300 2450 0    50   ~ 0
-Current limit is set by R2\nIlim = K / R2\nKmin = 120\nKtyp = 160\nKmax = 208
+Current limit is set by R4\nIlim = K / R4\nKmin = 120\nKtyp = 160\nKmax = 208
 Text Notes 4350 2450 0    50   ~ 0
-@R2=12k\nMinimal current limit 10A\nTypical current limit 13.3A\nMaximum current limit 17.3A
+@R4=12k\nMinimal current limit 10A\nTypical current limit 13.3A\nMaximum current limit 17.3A
 Text HLabel 8200 3050 2    50   Output ~ 0
 VOUT
 Text HLabel 4100 3050 0    50   Input ~ 0
