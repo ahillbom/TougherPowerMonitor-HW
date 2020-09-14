@@ -21,6 +21,9 @@ F 0 "U4" H 7950 1800 50  0000 C CNN
 F 1 "INA3221" H 8650 1800 50  0000 C CNN
 F 2 "Package_DFN_QFN:Texas_RGV_S-PVQFN-N16_EP2.1x2.1mm" H 8300 3450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina3221.pdf" H 8300 3050 50  0001 C CNN
+F 4 "Texas instruments" H 8300 2350 50  0001 C CNN "Manufacturer"
+F 5 "INA3221AIRGV" H 8300 2350 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/texas-instruments/INA3221AIRGVR/296-INA3221AIRGVRCT-ND/5143054" H 8300 2350 50  0001 C CNN "Distributor Link"
 	1    8300 2350
 	1    0    0    -1  
 $EndComp
@@ -48,6 +51,7 @@ F 0 "C8" H 7942 1296 50  0000 L CNN
 F 1 "100n" H 7942 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7850 1250 50  0001 C CNN
 F 3 "~" H 7850 1250 50  0001 C CNN
+F 4 "50V" H 7850 1250 50  0001 C CNN "Voltage"
 	1    7850 1250
 	1    0    0    -1  
 $EndComp
@@ -74,6 +78,7 @@ F 0 "R8" H 9159 1746 50  0000 L CNN
 F 1 "10k" H 9159 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9100 1700 50  0001 C CNN
 F 3 "~" H 9100 1700 50  0001 C CNN
+F 4 "1%" H 9100 1700 50  0001 C CNN "Tolerance"
 	1    9100 1700
 	1    0    0    -1  
 $EndComp
@@ -85,6 +90,7 @@ F 0 "R11" H 10059 1746 50  0000 L CNN
 F 1 "10k" H 10059 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10000 1700 50  0001 C CNN
 F 3 "~" H 10000 1700 50  0001 C CNN
+F 4 "1%" H 10000 1700 50  0001 C CNN "Tolerance"
 	1    10000 1700
 	1    0    0    -1  
 $EndComp
@@ -96,6 +102,7 @@ F 0 "R12" H 10359 1746 50  0000 L CNN
 F 1 "10k" H 10359 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10300 1700 50  0001 C CNN
 F 3 "~" H 10300 1700 50  0001 C CNN
+F 4 "1%" H 10300 1700 50  0001 C CNN "Tolerance"
 	1    10300 1700
 	1    0    0    -1  
 $EndComp
@@ -107,6 +114,7 @@ F 0 "R15" H 10659 1746 50  0000 L CNN
 F 1 "10k" H 10659 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10600 1700 50  0001 C CNN
 F 3 "~" H 10600 1700 50  0001 C CNN
+F 4 "1%" H 10600 1700 50  0001 C CNN "Tolerance"
 	1    10600 1700
 	1    0    0    -1  
 $EndComp
@@ -447,6 +455,8 @@ F 1 "796639-2" H 7900 4300 50  0000 C CNN
 F 2 "Connector_BD:TE_796639-2" H 7900 4500 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796639&DocType=Customer+Drawing&DocLang=English" H 7900 4500 50  0001 C CNN
 F 4 "TE Connectivity" H 7900 4500 50  0001 C CNN "Manufacturer"
+F 5 "796639-2" H 7900 4500 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/796639-2/A122654-ND/1130738" H 7900 4500 50  0001 C CNN "Distributor Link"
 	1    7900 4500
 	-1   0    0    -1  
 $EndComp
@@ -459,6 +469,8 @@ F 1 "796639-2" H 7900 5050 50  0000 C CNN
 F 2 "Connector_BD:TE_796639-2" H 7900 5250 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796639&DocType=Customer+Drawing&DocLang=English" H 7900 5250 50  0001 C CNN
 F 4 "TE Connectivity" H 7900 5250 50  0001 C CNN "Manufacturer"
+F 5 "796639-2" H 7900 5250 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/796639-2/A122654-ND/1130738" H 7900 5250 50  0001 C CNN "Distributor Link"
 	1    7900 5250
 	-1   0    0    -1  
 $EndComp
@@ -471,6 +483,8 @@ F 1 "796639-2" H 7900 5800 50  0000 C CNN
 F 2 "Connector_BD:TE_796639-2" H 7900 6000 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796639&DocType=Customer+Drawing&DocLang=English" H 7900 6000 50  0001 C CNN
 F 4 "TE Connectivity" H 7900 6000 50  0001 C CNN "Manufacturer"
+F 5 "796639-2" H 7900 6000 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/796639-2/A122654-ND/1130738" H 7900 6000 50  0001 C CNN "Distributor Link"
 	1    7900 6000
 	-1   0    0    -1  
 $EndComp
@@ -483,6 +497,8 @@ F 1 "796639-2" H 8900 5800 50  0000 C CNN
 F 2 "Connector_BD:TE_796639-2" H 8900 6000 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796639&DocType=Customer+Drawing&DocLang=English" H 8900 6000 50  0001 C CNN
 F 4 "TE Connectivity" H 8900 6000 50  0001 C CNN "Manufacturer"
+F 5 "796639-2" H 8900 6000 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/796639-2/A122654-ND/1130738" H 8900 6000 50  0001 C CNN "Distributor Link"
 	1    8900 6000
 	-1   0    0    -1  
 $EndComp
@@ -495,6 +511,8 @@ F 1 "796639-2" H 8900 5050 50  0000 C CNN
 F 2 "Connector_BD:TE_796639-2" H 8900 5250 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796639&DocType=Customer+Drawing&DocLang=English" H 8900 5250 50  0001 C CNN
 F 4 "TE Connectivity" H 8900 5250 50  0001 C CNN "Manufacturer"
+F 5 "796639-2" H 8900 5250 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/796639-2/A122654-ND/1130738" H 8900 5250 50  0001 C CNN "Distributor Link"
 	1    8900 5250
 	-1   0    0    -1  
 $EndComp
@@ -507,6 +525,8 @@ F 1 "796639-2" H 8900 4300 50  0000 C CNN
 F 2 "Connector_BD:TE_796639-2" H 8900 4500 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796639&DocType=Customer+Drawing&DocLang=English" H 8900 4500 50  0001 C CNN
 F 4 "TE Connectivity" H 8900 4500 50  0001 C CNN "Manufacturer"
+F 5 "796639-2" H 8900 4500 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/796639-2/A122654-ND/1130738" H 8900 4500 50  0001 C CNN "Distributor Link"
 	1    8900 4500
 	-1   0    0    -1  
 $EndComp
@@ -519,6 +539,8 @@ F 1 "796639-2" H 9850 4300 50  0000 C CNN
 F 2 "Connector_BD:TE_796639-2" H 9900 4500 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796639&DocType=Customer+Drawing&DocLang=English" H 9900 4500 50  0001 C CNN
 F 4 "TE Connectivity" H 9900 4500 50  0001 C CNN "Manufacturer"
+F 5 "796639-2" H 9900 4500 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/796639-2/A122654-ND/1130738" H 9900 4500 50  0001 C CNN "Distributor Link"
 	1    9900 4500
 	-1   0    0    -1  
 $EndComp
@@ -531,6 +553,8 @@ F 1 "796639-2" H 9850 5050 50  0000 C CNN
 F 2 "Connector_BD:TE_796639-2" H 9900 5250 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796639&DocType=Customer+Drawing&DocLang=English" H 9900 5250 50  0001 C CNN
 F 4 "TE Connectivity" H 9900 5250 50  0001 C CNN "Manufacturer"
+F 5 "796639-2" H 9900 5250 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/796639-2/A122654-ND/1130738" H 9900 5250 50  0001 C CNN "Distributor Link"
 	1    9900 5250
 	-1   0    0    -1  
 $EndComp
@@ -543,6 +567,8 @@ F 1 "796639-2" H 9850 5800 50  0000 C CNN
 F 2 "Connector_BD:TE_796639-2" H 9900 6000 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796639&DocType=Customer+Drawing&DocLang=English" H 9900 6000 50  0001 C CNN
 F 4 "TE Connectivity" H 9900 6000 50  0001 C CNN "Manufacturer"
+F 5 "796639-2" H 9900 6000 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/796639-2/A122654-ND/1130738" H 9900 6000 50  0001 C CNN "Distributor Link"
 	1    9900 6000
 	-1   0    0    -1  
 $EndComp
@@ -631,6 +657,7 @@ F 0 "R13" H 10409 3196 50  0000 L CNN
 F 1 "10k" H 10409 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10350 3150 50  0001 C CNN
 F 3 "~" H 10350 3150 50  0001 C CNN
+F 4 "1%" H 10350 3150 50  0001 C CNN "Tolerance"
 	1    10350 3150
 	1    0    0    -1  
 $EndComp
@@ -648,6 +675,7 @@ F 0 "R14" H 10409 3746 50  0000 L CNN
 F 1 "10k" H 10409 3655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10350 3700 50  0001 C CNN
 F 3 "~" H 10350 3700 50  0001 C CNN
+F 4 "1%" H 10350 3700 50  0001 C CNN "Tolerance"
 	1    10350 3700
 	1    0    0    -1  
 $EndComp
@@ -670,6 +698,7 @@ F 0 "R10" H 9759 1746 50  0000 L CNN
 F 1 "2.2k" H 9759 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9700 1700 50  0001 C CNN
 F 3 "~" H 9700 1700 50  0001 C CNN
+F 4 "1%" H 9700 1700 50  0001 C CNN "Tolerance"
 	1    9700 1700
 	1    0    0    -1  
 $EndComp
@@ -696,6 +725,7 @@ F 0 "R9" H 9459 1746 50  0000 L CNN
 F 1 "2.2k" H 9459 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9400 1700 50  0001 C CNN
 F 3 "~" H 9400 1700 50  0001 C CNN
+F 4 "1%" H 9400 1700 50  0001 C CNN "Tolerance"
 	1    9400 1700
 	1    0    0    -1  
 $EndComp
@@ -785,6 +815,10 @@ F 0 "C18" H 7542 1296 50  0000 L CNN
 F 1 "4.7uF" H 7542 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7450 1250 50  0001 C CNN
 F 3 "~" H 7450 1250 50  0001 C CNN
+F 4 "https://www.digikey.se/product-detail/en/kemet/C0603C475K9PACTU/399-3482-1-ND/754775" H 7450 1250 50  0001 C CNN "Distributor Link"
+F 5 "KEMET" H 7450 1250 50  0001 C CNN "Manufacturer"
+F 6 "C0603C475K9PACTU" H 7450 1250 50  0001 C CNN "Part Number"
+F 7 "6.3V" H 7450 1250 50  0001 C CNN "Voltage"
 	1    7450 1250
 	1    0    0    -1  
 $EndComp
@@ -895,6 +929,7 @@ F 0 "R1" V 10300 2250 50  0000 C CNN
 F 1 "220" V 10300 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10350 2450 50  0001 C CNN
 F 3 "~" H 10350 2450 50  0001 C CNN
+F 4 "1%" H 10350 2450 50  0001 C CNN "Tolerance"
 	1    10350 2450
 	0    1    1    0   
 $EndComp
@@ -906,6 +941,7 @@ F 0 "R2" V 10300 2350 50  0000 C CNN
 F 1 "220" V 10300 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 10350 2550 50  0001 C CNN
 F 3 "~" H 10350 2550 50  0001 C CNN
+F 4 "1%" H 10350 2550 50  0001 C CNN "Tolerance"
 	1    10350 2550
 	0    1    1    0   
 $EndComp
@@ -1034,6 +1070,9 @@ F 0 "D1" V 4854 5780 50  0000 L CNN
 F 1 "SMBJ16D" V 4945 5780 50  0000 L CNN
 F 2 "Diode_SMD:D_SMB" H 4900 5500 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf" H 4850 5700 50  0001 C CNN
+F 4 "Vishay Semiconductor Diodes Division" V 4900 5700 50  0001 C CNN "Manufacturer"
+F 5 "SMBJ16D-M3/I" V 4900 5700 50  0001 C CNN "Part Number"
+F 6 "https://www.digikey.se/product-detail/en/vishay-semiconductor-diodes-division/SMBJ16D-M3-I/SMBJ16D-M3-IGICT-ND/9648416" V 4900 5700 50  0001 C CNN "Distributor Link"
 	1    4900 5700
 	0    1    1    0   
 $EndComp
@@ -1064,6 +1103,10 @@ F 0 "C1" H 2492 4246 50  0000 L CNN
 F 1 "4.7uF" H 2492 4155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2400 4200 50  0001 C CNN
 F 3 "~" H 2400 4200 50  0001 C CNN
+F 4 "https://www.digikey.se/product-detail/en/kemet/C0603C475K9PACTU/399-3482-1-ND/754775" H 2400 4200 50  0001 C CNN "Distributor Link"
+F 5 "KEMET" H 2400 4200 50  0001 C CNN "Manufacturer"
+F 6 "C0603C475K9PACTU" H 2400 4200 50  0001 C CNN "Part Number"
+F 7 "6.3V" H 2400 4200 50  0001 C CNN "Voltage"
 	1    2400 4200
 	1    0    0    -1  
 $EndComp

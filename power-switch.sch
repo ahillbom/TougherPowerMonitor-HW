@@ -23,6 +23,9 @@ F 0 "U2" H 6250 3700 50  0000 C CNN
 F 1 "TPS1HB08A-Q1" H 6450 3600 50  0000 C CNN
 F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm" H 6450 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps2042.pdf" H 6400 3550 50  0001 C CNN
+F 4 "https://www.digikey.se/product-detail/en/texas-instruments/TPS1HB08AQPWPRQ1/296-TPS1HB08AQPWPRQ1CT-ND/11615930" H 6450 3250 50  0001 C CNN "Distributor Link"
+F 5 "Texas Instruments" H 6450 3250 50  0001 C CNN "Manufacturer"
+F 6 "TPS1HB08AQPWPRQ1" H 6450 3250 50  0001 C CNN "Part Number"
 	1    6450 3250
 	1    0    0    -1  
 $EndComp
@@ -82,6 +85,7 @@ F 0 "R3" H 3841 4654 50  0000 R CNN
 F 1 "220" H 3841 4745 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 4700 50  0001 C CNN
 F 3 "~" H 3900 4700 50  0001 C CNN
+F 4 "1%" H 3900 4700 50  0001 C CNN "Tolerance"
 	1    3900 4700
 	-1   0    0    1   
 $EndComp
@@ -95,6 +99,7 @@ F 0 "R4" H 4141 3254 50  0000 R CNN
 F 1 "12k" H 4141 3345 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 4200 3300 50  0001 C CNN
 F 3 "~" H 4200 3300 50  0001 C CNN
+F 4 "1%" H 4200 3300 50  0001 C CNN "Tolerance"
 	1    4200 3300
 	-1   0    0    1   
 $EndComp
@@ -123,6 +128,7 @@ F 0 "R25" V 5550 3550 50  0000 C CNN
 F 1 "10k" V 5550 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 3750 50  0001 C CNN
 F 3 "~" H 5600 3750 50  0001 C CNN
+F 4 "1%" H 5600 3750 50  0001 C CNN "Tolerance"
 	1    5600 3750
 	0    1    1    0   
 $EndComp
@@ -136,6 +142,7 @@ F 0 "R26" V 5550 3650 50  0000 C CNN
 F 1 "10k" V 5550 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 3850 50  0001 C CNN
 F 3 "~" H 5600 3850 50  0001 C CNN
+F 4 "1%" H 5600 3850 50  0001 C CNN "Tolerance"
 	1    5600 3850
 	0    1    1    0   
 $EndComp
@@ -157,6 +164,7 @@ F 0 "R7" V 5550 3150 50  0000 C CNN
 F 1 "10k" V 5550 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 3350 50  0001 C CNN
 F 3 "~" H 5600 3350 50  0001 C CNN
+F 4 "1%" H 5600 3350 50  0001 C CNN "Tolerance"
 	1    5600 3350
 	0    1    1    0   
 $EndComp
@@ -170,6 +178,7 @@ F 0 "R6" V 5550 3050 50  0000 C CNN
 F 1 "10k" V 5550 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 3250 50  0001 C CNN
 F 3 "~" H 5600 3250 50  0001 C CNN
+F 4 "1%" H 5600 3250 50  0001 C CNN "Tolerance"
 	1    5600 3250
 	0    1    1    0   
 $EndComp
@@ -188,9 +197,10 @@ P 7400 3250
 AR Path="/5F65AA22" Ref="C?"  Part="1" 
 AR Path="/5F64E916/5F65AA22" Ref="C20"  Part="1" 
 F 0 "C20" H 7492 3296 50  0000 L CNN
-F 1 "220n" H 7492 3205 50  0000 L CNN
+F 1 "100n" H 7492 3205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7400 3250 50  0001 C CNN
 F 3 "~" H 7400 3250 50  0001 C CNN
+F 4 "50V" H 7400 3250 50  0001 C CNN "Voltage"
 	1    7400 3250
 	1    0    0    -1  
 $EndComp
@@ -201,9 +211,10 @@ P 4500 3200
 AR Path="/5F65AA28" Ref="C?"  Part="1" 
 AR Path="/5F64E916/5F65AA28" Ref="C7"  Part="1" 
 F 0 "C7" H 4592 3246 50  0000 L CNN
-F 1 "220n" H 4592 3155 50  0000 L CNN
+F 1 "100n" H 4592 3155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4500 3200 50  0001 C CNN
 F 3 "~" H 4500 3200 50  0001 C CNN
+F 4 "50V" H 4500 3200 50  0001 C CNN "Voltage"
 	1    4500 3200
 	1    0    0    -1  
 $EndComp
@@ -265,6 +276,7 @@ F 0 "R5" V 4250 4300 50  0000 C CNN
 F 1 "10k" V 4250 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 4450 50  0001 C CNN
 F 3 "~" H 4300 4450 50  0001 C CNN
+F 4 "1%" H 4300 4450 50  0001 C CNN "Tolerance"
 	1    4300 4450
 	0    1    1    0   
 $EndComp
@@ -276,8 +288,9 @@ AR Path="/5F65AA4C" Ref="C?"  Part="1"
 AR Path="/5F64E916/5F65AA4C" Ref="C19"  Part="1" 
 F 0 "C19" H 4742 4796 50  0000 L CNN
 F 1 "100n" H 4742 4705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 4750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 4750 50  0001 C CNN
 F 3 "~" H 4650 4750 50  0001 C CNN
+F 4 "50V" H 4650 4750 50  0001 C CNN "Voltage"
 	1    4650 4750
 	1    0    0    -1  
 $EndComp
