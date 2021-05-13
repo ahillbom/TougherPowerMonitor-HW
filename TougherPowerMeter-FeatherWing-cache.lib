@@ -163,11 +163,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diodes_SMBJxxxD
+# Diode_BD_SMBJxxxD
 #
-DEF Diodes_SMBJxxxD D 0 40 N N 1 F N
+DEF Diode_BD_SMBJxxxD D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Diodes_SMBJxxxD" 0 -100 50 H V C CNN
+F1 "Diode_BD_SMBJxxxD" 0 -100 50 H V C CNN
 F2 "Diode_SMD:D_SMB" 0 -200 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 $FPLIST

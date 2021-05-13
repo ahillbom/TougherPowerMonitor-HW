@@ -1058,7 +1058,7 @@ CH3_DIA_EN
 Wire Wire Line
 	4900 5450 4900 5550
 $Comp
-L Diodes:SMBJxxxD D?
+L Diode_BD:SMBJxxxD D?
 U 1 1 5F6B0AA1
 P 4900 5700
 AR Path="/5F41030B/5F6B0AA1" Ref="D?"  Part="1" 

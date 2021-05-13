@@ -288,7 +288,7 @@ F 4 "50V" H 4900 2650 50  0001 C CNN "Voltage"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diodes:SMBJxxxD D2
+L Diode_BD:SMBJxxxD D2
 U 1 1 5F41791A
 P 4300 2700
 AR Path="/5F41030B/5F41791A" Ref="D2"  Part="1" 
@@ -305,7 +305,7 @@ F 6 "SMBJ16D-M3/I" H 4300 2700 50  0001 C CNN "Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diodes:SMBJxxxD D3
+L Diode_BD:SMBJxxxD D3
 U 1 1 5F417918
 P 6950 2700
 AR Path="/5F41030B/5F417918" Ref="D3"  Part="1" 

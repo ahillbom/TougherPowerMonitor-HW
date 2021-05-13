@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Connector_BD)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/Connector_BD.pretty)(options "")(descr ""))
+  (lib (name Diode_BD)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/Diode_BD.pretty)(options "")(descr ""))
+  (lib (name Inductor_SMD_BD)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/Inductor_SMD_BD.pretty)(options "")(descr ""))
+  (lib (name Modules_BD)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/Modules_BD.pretty)(options "")(descr ""))
+  (lib (name Package_DFN_QFN_BD)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/Package_DFN_QFN_BD.pretty)(options "")(descr ""))
+)
